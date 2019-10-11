@@ -1,0 +1,102 @@
+.title-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.title-right{
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+.half-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.half-right{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.column-left{
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+.column-center{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+.column-right{
+  float: right;
+  width: 33%;
+  text-align: right;
+}
+.center-contents{
+  text-align: center;
+}
+.tooltip{
+  /*position: inherit !important;*/
+  opacity: inherit !important;
+}
+
+.label{
+  font-size: 16px !important;
+}
+
+table, td, th {
+  border: none;
+  border-left: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+  
+	.page-break	{ display: block; page-break-before: always; }
+	
+	a:link:after, a:visited:after {
+    content: "";
+  }
+}
+
+.column-center{
+  width:85%;
+  text-align: left;
+}
+.column-right{
+  display: inline-block;
+  width:15%;
+  float: right;
+  position: fixed;
+}
+.colour{
+  margin-left:20px;
+  padding-left: 3px;
+  background-color:rgba(0,80,80,0.2);
+  border: 3px solid #008080;
+  text-align: left;
+}
+.footnotes{
+  width: 85%;
+}
+
+ol.tables {
+  margin-left: 2.8em;
+}
+
+ol.tables li:before {
+  content: "13.";
+  margin-left: -2.8em;
+}
